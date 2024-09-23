@@ -57,7 +57,7 @@
     display: none;
   }
 .bg{
-    background-image: url(/FOTO/BG\ ABOUT\ US.png);
+    background-image: url(./FOTO/BG\ ABOUT\ US.png);
     background-repeat: no-repeat;
     height: 77vh;
 } 
