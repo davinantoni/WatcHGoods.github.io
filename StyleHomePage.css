@@ -58,7 +58,7 @@
   }
 
 .bg {
-    background-image: url(/FOTO/BG\ ATRIBUT.png);
+    background-image: url(./FOTO/BG\ ATRIBUT.png);
     background-repeat: no-repeat;
     /* height: 100%;
     width: 100%; */
@@ -115,7 +115,7 @@
 }
 
 .bgpromosi {
-    background-image: url(/FOTO/BG\ PROMOSI.png);
+    background-image: url(./FOTO/BG\ PROMOSI.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
