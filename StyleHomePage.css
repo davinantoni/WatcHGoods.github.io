@@ -1,0 +1,392 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: 'Raleway';
+    padding: 0;
+    margin: 0;
+  }
+  nav{
+    background: #050605;
+    height: 80px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+  }
+  .logo{
+    color: white;
+    font-size: 32px;
+    line-height: 80px;
+    /* padding: 0 50px; */
+    padding-left: 50px;
+  }
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+    color: white;
+    font-size: 26px;
+    padding: 7px 13px;
+  }
+  a.active{
+    color: #A2B0B3;
+  }
+  nav ul li a:hover{
+    color: #A2B0B3;
+  }
+  .checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+
+.bg {
+    background-image: url(/FOTO/BG\ ATRIBUT.png);
+    background-repeat: no-repeat;
+    /* height: 100%;
+    width: 100%; */
+    background-size: cover;
+}
+
+.slogan {
+    font-weight: 700;
+    font-size: 76px;
+    margin-left: 50px;
+    padding-top: 20px;
+    color: white;
+}
+
+.teks1 {
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.highquality {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.highquality p {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 500;
+    padding: 10px;
+    gap: 10px;
+}
+
+.highquality img {
+    width: 55px;
+    height: 55px;
+}
+
+.explore {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 40px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 32px;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
+.explore:hover {
+    color: #A2B0B3;
+}
+
+.bgpromosi {
+    background-image: url(/FOTO/BG\ PROMOSI.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tekspromosi {
+    font-weight: 700;
+    font-size: 56px;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.diskon {
+    font-weight: 700;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+}
+
+.bgpromosi img {
+    margin-top: -50px;
+}
+
+.promosirolex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.rolex1{
+    margin: 10px auto;
+}
+
+.namarolex1{
+    font-weight: 600;
+    font-size: 26px;
+    color: white;
+    text-align: center;
+    margin-top: -50px;
+}
+.hargarolex1{
+    font-weight: 700;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.ourbrands p {
+    font-weight: 600;
+    font-size: 46px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.empatbrand {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+footer{
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background: #050605;
+    margin-top: 100px;
+  }
+  .footer-content{
+    max-width: 1350px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-logo{
+    color: white;
+    font-weight: 400;
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+  .upper p{
+    width: 425px;
+    height: 104px;
+    /* width: 36%; */
+    text-align: justify;
+    font-weight: 500;
+    font-size: 22px;
+  }
+  .footer-content p,a{
+    color: white;
+  }
+  .content .box{
+    width: 33%;
+    /* transition: all 0.4s ease; */
+  }
+  .footer-content .topic{
+      color: white;
+      font-weight: 400;
+      font-size: 22px;
+      margin-bottom: 10px;
+      margin-top: 30px;
+  }
+  .fotoig, .fototwitter, .fotoyoutube{
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+  .teksinstagram, .tekstwitter, .teksyoutube{
+    margin-top: 6px;
+  }
+  .instagram, .twitter, .youtube{
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .middle-box{
+    padding-right: 50px;
+  }
+  .middle-content{
+    line-height: 45px;
+    font-weight: 400;
+    font-size: 22px;
+  }
+  .right-box{
+    padding-right: 50px;
+  }
+  .right-content{
+    line-height: 45px;
+    font-weight: 400;
+    font-size: 22px;
+    margin-bottom: 50px;
+  }
+  .bottom{
+    width: 100%;
+    text-align: left;
+    color: white;
+    padding: 0 0 15px 20px;
+    font-weight: 400;
+    font-size: 22px;
+  }
+@media (max-width: 952px){
+    .logo{
+      font-size: 30px;
+      padding-left: 50px;
+    }
+    nav ul li a{
+      font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .checkbtn{
+        display: block;
+      }
+      ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #050605;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+      }
+      nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+      }
+      nav ul li a{
+        font-size: 20px;
+      }
+      a:hover,a.active{
+        background: none;
+        color: #A2B0B3;
+      }
+      #check:checked ~ ul{
+        left: 0;
+      }
+
+    .slogan {
+        font-size: 43px;
+        text-align: center;
+        margin-right: 50px;
+    }
+
+    .highquality {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .highquality p {
+        font-size: 24px;
+        padding: 5px;
+    }
+
+    .highquality img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .explore {
+        font-size: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 60px;
+        margin: auto;
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+
+    .tekspromosi {
+        font-size: 36px;
+    }
+
+    .diskon {
+        font-size: 24px;
+    }
+    .rolex1{
+        display: flex;
+        flex-direction: column;
+    }
+    .rolex1-text{
+        text-align: center;
+    }
+
+    .ourbrands p {
+        font-size: 36px;
+        margin-top: 20px;
+    }
+
+    .empatbrand {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    footer{
+        position: relative;
+      }
+      .footer-content .box{
+        width: 100%;
+        margin-top: 30px;
+      }
+      .footer-content .middle{
+        padding-left: 0;
+      }
+}
+@media screen and (max-width:560px) {
+    .upper p{
+      width: 300px;
+      height: 130px;
+      text-align: justify;
+      font-weight: 500;
+      font-size: 22px;
+    }
+  }
+  @media screen and (max-width:340px) {
+    .upper p{
+      width: 230px;
+      height: 150px;
+      text-align: justify;
+      font-weight: 500;
+      font-size: 22px;
+    }
+  }
